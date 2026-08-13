@@ -91,6 +91,16 @@ def _required_keys():
         ("skills.audit_analyzer.cache_max_age_sec", 3600),
         ("skills.audit_analyzer.cache_refresh_interval_sec", 3600),
         ("skills.audit_analyzer.build_batch_pause_sec", 0.5),
+        # skills.fines_analyzer
+        ("skills.fines_analyzer.db_schema", ""),
+        ("skills.fines_analyzer.main_table", ""),
+        ("skills.fines_analyzer.db_tables", []),
+        ("skills.fines_analyzer.max_rows", 50),
+        ("skills.fines_analyzer.max_cell_chars", 300),
+        ("skills.fines_analyzer.query_timeout_sec", 60),
+        ("skills.fines_analyzer.chart_max_points", 200),
+        ("skills.fines_analyzer.chart_max_files", 100),
+        ("skills.fines_analyzer.charts_dir", ""),
         # cli
         ("cli.show_reasoning", True),
         ("cli.llm_timeout", 300),

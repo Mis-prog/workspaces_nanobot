@@ -1,2 +1,4 @@
 data_store/cache/
+# PNG от навыков (fines_analyzer --mode chart)
+data_store/charts/
 .nanobot/tool-results/
